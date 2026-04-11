@@ -3,7 +3,7 @@
   "theme": "aspen",
   "name": "Test Documentation System",
   "colors": {
-    "primary": "#fff",
+    "primary": "#ff0000",
     "light": "#fff",
     "dark": "#fff"
   },
@@ -39,7 +39,6 @@
                       {
                         "group": "Getting started",
                         "pages": [
-                          "index",
                           "quickstart",
                           "development"
                         ]
