@@ -134,6 +134,12 @@
             "pages": [
               "test"
             ]
+          },
+          {
+            "tab": "test2",
+            "pages": [
+              "test23"
+            ]
           }
         ]
       }
