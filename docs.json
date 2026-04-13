@@ -23,68 +23,73 @@
         }
       ]
     },
-    "languages": [
+    "anchors": [
       {
-        "language": "en",
-        "anchors": [
+        "anchor": "Test",
+        "languages": [
           {
-            "anchor": "idk",
-            "dropdowns": [
+            "language": "en",
+            "anchors": [
               {
-                "dropdown": "test",
-                "tabs": [
+                "anchor": "idk",
+                "dropdowns": [
                   {
-                    "tab": "Guides",
-                    "groups": [
+                    "dropdown": "test",
+                    "tabs": [
                       {
-                        "group": "Getting started",
-                        "pages": [
-                          "quickstart",
-                          "development"
+                        "tab": "Guides",
+                        "groups": [
+                          {
+                            "group": "Getting started",
+                            "pages": [
+                              "quickstart",
+                              "development"
+                            ]
+                          },
+                          {
+                            "group": "Customization",
+                            "pages": [
+                              "essentials/settings",
+                              "essentials/navigation"
+                            ]
+                          },
+                          {
+                            "group": "Writing content",
+                            "pages": [
+                              "essentials/markdown",
+                              "essentials/code",
+                              "essentials/images",
+                              "essentials/reusable-snippets"
+                            ]
+                          },
+                          {
+                            "group": "AI tools",
+                            "pages": [
+                              "ai-tools/cursor",
+                              "ai-tools/claude-code",
+                              "ai-tools/windsurf"
+                            ]
+                          }
                         ]
                       },
                       {
-                        "group": "Customization",
-                        "pages": [
-                          "essentials/settings",
-                          "essentials/navigation"
-                        ]
-                      },
-                      {
-                        "group": "Writing content",
-                        "pages": [
-                          "essentials/markdown",
-                          "essentials/code",
-                          "essentials/images",
-                          "essentials/reusable-snippets"
-                        ]
-                      },
-                      {
-                        "group": "AI tools",
-                        "pages": [
-                          "ai-tools/cursor",
-                          "ai-tools/claude-code",
-                          "ai-tools/windsurf"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "tab": "API reference",
-                    "groups": [
-                      {
-                        "group": "API documentation",
-                        "pages": [
-                          "api-reference/introduction"
-                        ]
-                      },
-                      {
-                        "group": "Endpoint examples",
-                        "pages": [
-                          "api-reference/endpoint/get",
-                          "api-reference/endpoint/create",
-                          "api-reference/endpoint/delete",
-                          "api-reference/endpoint/webhook"
+                        "tab": "API reference",
+                        "groups": [
+                          {
+                            "group": "API documentation",
+                            "pages": [
+                              "api-reference/introduction"
+                            ]
+                          },
+                          {
+                            "group": "Endpoint examples",
+                            "pages": [
+                              "api-reference/endpoint/get",
+                              "api-reference/endpoint/create",
+                              "api-reference/endpoint/delete",
+                              "api-reference/endpoint/webhook"
+                            ]
+                          }
                         ]
                       }
                     ]
@@ -92,22 +97,22 @@
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "language": "cn",
-        "tabs": [
+          },
           {
-            "tab": "test",
-            "dropdowns": [
+            "language": "cn",
+            "tabs": [
               {
-                "dropdown": "Untitled Dropdown",
-                "versions": [
+                "tab": "test",
+                "dropdowns": [
                   {
-                    "version": "test",
-                    "pages": [
-                      "untitled-page"
+                    "dropdown": "Untitled Dropdown",
+                    "versions": [
+                      {
+                        "version": "test",
+                        "pages": [
+                          "untitled-page"
+                        ]
+                      }
                     ]
                   }
                 ]
