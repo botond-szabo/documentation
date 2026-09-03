@@ -40,7 +40,7 @@
                         "dropdown": "test",
                         "tabs": [
                           {
-                            "tab": "Guides",
+                            "tab": "Test",
                             "groups": [
                               {
                                 "group": "Getting started",
@@ -49,6 +49,18 @@
                                   "development"
                                 ]
                               },
+                              {
+                                "group": "testy",
+                                "pages": [
+                                  "untitled-page-6",
+                                  "untitled-page-5"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "tab": "Guides",
+                            "groups": [
                               {
                                 "group": "Customization",
                                 "pages": [
@@ -179,6 +191,11 @@
       "x": "https://x.com/mintlify",
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "background": {
+    "color": {
+      "dark": "#ff0"
     }
   }
 }
